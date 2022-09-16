@@ -1,0 +1,247 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "5eThedosianTales",
+                "abbreviation": "TTDA",
+                "full": "Thedosian Tales (5e Dragon Age)",
+                "authors": [
+                    "LatHab"
+                ],
+                "convertedBy": [
+                    "LatHab"
+                ],
+                "version": "1.0",
+                "url": "https://homebrewery.naturalcrit.com/share/PiGQP0PrFIsq",
+                "targetSchema": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "race": [
+        {
+            "name": "Thedosian Dwarf",
+            "source": "Thedosian Tales",
+            "page": "",
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 2
+                    }
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 25
+            },
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "darkvision": 60,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "dwarvish": true
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "artisan's tools": true,
+                    "any": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "battleaxe": true,
+                    "handaxe": true,
+                    "light hammer": true,
+                    "warhammer": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Dwarves reach adulthood in their early teens and typically live for a century."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Most Stone dwarves are lawful, believing firmly in the benefits of the caste system, with a strong sense of racial superiority. Surface born dwarves tend towards no particular alignment, as they are typically raised in human societies."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "Originating from the Stone, the dwarven race has developed superior vision in dark and dim conditions. You can see dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Detached from the Fade",
+                    "entries": [
+                        "Dwarves are completely cut off from the Fade, and as such, cannot be mages or become possessed by demons."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Child of the Stone",
+                    "entries": [
+                        "Dwarves are born of the earth itself, and as such gain a natural resistance to magic. You have advantage on saving throws against spells and other magical effects. Additionally, you are immune to the side effects of raw lyrium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Combat Training",
+                    "entries": [
+                        "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tool Proficiency",
+                    "entries": [
+                        "You gain proficiency with an artisan tool of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Stonecunning",
+                    "entries": [
+                        "Whenever you make an Intelligence (History) check related to stonework and minerals, you are considered proficient in the History skill and add double your proficiency bonus to the check."
+                    ]
+                }
+            ]
+        }
+    ],
+    "subrace": [
+        {
+            "name": "Stone Dwarf",
+            "source": "Thedosian Tales",
+            "raceName": "Thedosian Dwarf",
+            "raceSource": "Thedosian Tales",
+            "overwrite": {
+                "darkvision": true
+            },
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 2
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "survival": true
+                }
+            ],
+            "darkvision": 120,
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Stone Camouflage",
+                    "entries": [
+                        "You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Stone Sense",
+                    "entries": [
+                        "You can navigate underground without getting lost. You gain proficiency with Survival and you can double your proficiency bonus whenever you make a Wisdom (Survival) check related to navigating while underground."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Surface Dwarf",
+            "source": "Thedosian Tales",
+            "raceName": "Thedosian Dwarf",
+            "raceSource": "Thedosian Tales",
+            "overwrite": {
+                "speed": true
+            },
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 2
+                    }
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Topsider",
+                    "entries": [
+                        "Your base walking speed increases to 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Excellence",
+                    "entries": [
+                        "Choose one skill with which you have proficiency. You gain expertise with that skill, meaning your proficiency bonus is doubled whenever you make an ability check with it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nimble Escape",
+                    "entries": [
+                        "You can take the Disengage or Hide action as a bonus action on each of your turns."
+                    ]
+                }
+            ]
+        }
+    ]
+}
