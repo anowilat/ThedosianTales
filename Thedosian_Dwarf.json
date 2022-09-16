@@ -169,7 +169,7 @@
                             "wis",
                             "cha"
                         ],
-                        "count": 1,
+                        "count": 2,
                         "amount": 2
                     }
                 }
@@ -203,7 +203,8 @@
             "raceName": "Thedosian Dwarf",
             "raceSource": "Thedosian Tales",
             "overwrite": {
-                "speed": true
+                "speed": true,
+                "ability": true
             },
             "ability": [
                 {
@@ -216,7 +217,7 @@
                             "wis",
                             "cha"
                         ],
-                        "count": 1,
+                        "count": 2,
                         "amount": 2
                     }
                 }
