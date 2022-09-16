@@ -219,7 +219,8 @@
             "raceName": "Thedosian Dwarf",
             "raceSource": "Thedosian Tales",
             "overwrite": {
-                "speed": true
+                "speed": true,
+                "ability": true
             },
             "ability": [
                 {
@@ -235,6 +236,11 @@
                         "count": 2,
                         "amount": 2
                     }
+                }
+            ],
+            "expertise": [
+                {
+                    "any": 1
                 }
             ],
             "speed": {
