@@ -59,7 +59,17 @@
             ],
             "toolProficiencies": [
                 {
-                    "artisan's tools": true,
+                    "artisan's tools": false,
+                    "cartographer's tools": false,
+                    "disguise kit": false,
+                    "forgery kit": false,
+                    "gaming set": false,
+                    "herbalism kit": false,
+                    "musical instrument": false,
+                    "navigator's tools": false,
+                    "thieves' tools": false,
+                    "vehicles (land)": false,
+                    "vehicles (water)": false,
                     "any": 1
                 }
             ],
