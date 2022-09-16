@@ -238,9 +238,12 @@
                     }
                 }
             ],
-            "expertise": [
+            "classFeatures":[
                 {
-                    "any": 1
+                    "name": "Expertise",
+                    "entries": [
+                        "Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency."
+                    ]
                 }
             ],
             "speed": {
